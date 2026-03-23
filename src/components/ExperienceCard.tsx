@@ -8,7 +8,7 @@ export default function ExperienceCard({ entry }: { entry: Experience }) {
         {entry.date}
       </div>
       <div>
-        <h3 className="text-base font-semibold text-text-bright group-hover:text-accent-blue-bright transition-colors duration-200 inline-flex items-center gap-1">
+        <h3 className="text-base font-semibold text-text-bright group-hover:text-accent-hover transition-colors duration-200 inline-flex items-center gap-1">
           {entry.title}
           {entry.url && (
             <svg
@@ -46,7 +46,7 @@ export default function ExperienceCard({ entry }: { entry: Experience }) {
   );
 
   const className =
-    "group grid grid-cols-1 md:grid-cols-[140px_1fr] gap-x-4 rounded-lg p-5 transition-all duration-200 hover:bg-bg-card-hover hover:shadow-[inset_0_0_0_1px_rgba(212,212,212,0.08)]";
+    "group block border-t border-accent-border py-8 px-2 transition-colors duration-200 hover:bg-bg-card-hover/50";
 
   if (entry.url) {
     return (

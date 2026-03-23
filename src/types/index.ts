@@ -1,18 +1,9 @@
-export interface CaseStudy {
-  problem: string;
-  approach: string;
-  challenges: string;
-  results: string;
-  wouldChange: string;
-}
-
 export interface Project {
   name: string;
   timeline: string;
   liveUrl: string | null;
   description: string;
   tags: string[];
-  caseStudy: CaseStudy | null;
 }
 
 export interface Experience {

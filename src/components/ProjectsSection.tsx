@@ -8,10 +8,10 @@ export default function ProjectsSection({
 }) {
   return (
     <section id="projects" aria-label="Projects">
-      <h2 className="text-sm font-semibold uppercase tracking-widest text-text-bright mb-8 lg:sr-only">
+      <h2 className="text-sm font-semibold uppercase tracking-widest text-text-bright mb-8">
         Projects
       </h2>
-      <div className="space-y-4">
+      <div className="border-b border-accent-border">
         {projects.map((project) => (
           <ProjectCard key={project.name} project={project} />
         ))}

@@ -37,7 +37,7 @@ export default function GlowEffect() {
         left: position.x,
         top: position.y,
         background:
-          "radial-gradient(circle, rgba(255,255,255,0.03) 0%, transparent 70%)",
+          "radial-gradient(circle, rgba(162,132,94,0.04) 0%, transparent 70%)",
         transition: "left 0.3s, top 0.3s",
       }}
     />

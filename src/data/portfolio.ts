@@ -47,6 +47,11 @@ export const portfolio: PortfolioData = {
         "A productivity app that turns your to-do list into a game. Co-founded it with friends, hit 1,400 users in two months.",
       tags: ["React Native", "Supabase", "TypeScript"],
       note: "App sunset March 2025 — founding team moved on to new ventures",
+      screenshots: [
+        "/screenshots/adventurefy/equipment.webp",
+        "/screenshots/adventurefy/create-quest.webp",
+        "/screenshots/adventurefy/shop.webp",
+      ],
     },
   ],
 
@@ -67,14 +72,14 @@ export const portfolio: PortfolioData = {
         "The official website for MSU's student satellite team, built with a headless CMS so future members can update content without a developer.",
       tags: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     },
-    {
-      name: "Conlang Dictionary",
-      timeline: "May 2023 — May 2024",
-      liveUrl: "https://conlang-site.vercel.app/",
-      description:
-        "My brother built an entire language and was managing it in a Google Doc. I built him a proper dictionary site for searching, filtering, and editing entries.",
-      tags: ["React", "Next.js", "Tailwind CSS", "PostgreSQL", "REST API"],
-    },
+    // {
+    //   name: "Conlang Dictionary",
+    //   timeline: "May 2023 — May 2024",
+    //   liveUrl: "https://conlang-site.vercel.app/",
+    //   description:
+    //     "My brother built an entire language and was managing it in a Google Doc. I built him a proper dictionary site for searching, filtering, and editing entries.",
+    //   tags: ["React", "Next.js", "Tailwind CSS", "PostgreSQL", "REST API"],
+    // },
     {
       name: "Space Cowboys Club Website",
       timeline: "2024",

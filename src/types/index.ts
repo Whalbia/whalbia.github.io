@@ -15,6 +15,7 @@ export interface Experience {
   tags: string[];
   metrics?: string[];
   note?: string;
+  screenshots?: string[];
 }
 
 export interface Links {

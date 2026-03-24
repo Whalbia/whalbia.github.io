@@ -16,7 +16,7 @@ export const portfolio: PortfolioData = {
     linkedin: "https://www.linkedin.com/in/maximus-young",
     email: "maxyoung0320@gmail.com",
     phone: "",
-    resume: "/resume.pdf",
+    resume: "/Maximus_Young_Resume.pdf",
   },
 
   experience: [
